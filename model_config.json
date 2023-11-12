@@ -1,0 +1,39 @@
+{
+  "batch_norm_eps": 0.001,
+  "batch_norm_momentum": 0.99,
+  "depth_coefficient": 3.1,
+  "depth_divisor": 8,
+  "depthwise_padding": [],
+  "drop_connect_rate": 0.1,
+  "dropout_rate": 0.1,
+  "expand_ratios": [
+    1
+  ],
+  "hidden_act": "swish",
+  "hidden_dim": 2560,
+  "image_size": 128,
+  "in_channels": [
+    32
+  ],
+  "initializer_range": 0.02,
+  "kernel_sizes": [
+    3
+  ],
+  "model_type": "efficientnet",
+  "num_block_repeats": [
+    1
+  ],
+  "num_channels": 3,
+  "num_hidden_layers": 6,
+  "out_channels": [
+    16
+  ],
+  "pooling_type": "mean",
+  "squeeze_expansion_ratio": 0.25,
+  "strides": [
+    1
+  ],
+  "num_labels": 6,
+  "transformers_version": "4.35.0",
+  "width_coefficient": 2.0
+}
